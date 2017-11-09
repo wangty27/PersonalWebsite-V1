@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/main-control.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div id="header">
+            <div class="header-logo">
+            </div>
+            <div class="header-menu">
+                <div id="menu-home" class="header-menu-content">Home</div>
+                <div id="menu-about" class="header-menu-content" style="margin-left: 0px;">About Me</div>
+                <div id="menu-experience" class="header-menu-content" style="margin-left: 25px;">Experience</div>
+                <div id="menu-project" class="header-menu-content">Project</div>
+                <div id="menu-contact" class="header-menu-content" style="margin-left: 0px;">Contact</div>
+            </div>
+        </div>
+        <div id="wrapper" class="">
+            <div id="wrapper-face">
+                <div id="wrapper-face-greeting" class="face-greeting">
+                    <p id="greeting1" class="face-greeting-p" style="display:none;">Hello World</p>
+                    <p id="greeting2" class="face-greeting-p" style="display:none;">I'm Tianyu Wang</p>
+                    <p id="greeting3" class="face-greeting-p" style="font-size: 22px; display:none;">University of Waterloo</p>
+                    <p id="greeting4" class="face-greeting-p" style="font-size: 22px; display:none;">Computer Science</p>
+                </div>
+                <div id="wrapper-face-down" style="display:none;"></div>
+            </div>
+            <div id="wrapper-aboutme">
+                <div id="wrapper-aboutme-title" class="section-title">About Me</div>
+                <div id="wrapper-aboutme-content">
+                    <div id="aboutme-photo">
+                        <div style="height: 400px; width: 400px; border: 1px solid #696969; border-radius: 50%; color: #696969; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                            <p style="font-family: 'Times New Roman', cursive; font-size: 25px; margin: 10px;">Insert</p>
+                            <p style="font-family: 'Times New Roman', cursive; font-size: 25px; margin: 10px;">Professional</p>
+                            <p style="font-family: 'Times New Roman', cursive; font-size: 25px; margin: 10px;">Photo</p>
+                            <p style="font-family: 'Times New Roman', cursive; font-size: 25px; margin: 10px;">Here</p>
+                            <p style="font-family: 'Times New Roman', cursive; font-size: 15px; margin: 10px;">(Uploading soon...)</p>
+                        </div>
+                    </div>
+                    <div id="aboutme-text">
+                        <p>Hello World! I'm Tianyu Wang, a second year computer science student at the University of Waterloo.
+                            I have endless passion in coding which keeps motivating me to learn new stuff.
+                            I'm currently learning iOS app and backend development. I also like painting and playing piano.
+                            To know more about me, please scroll down!</p>
+                    </div>
+                </div>
+            </div>
+            <div id="wrapper-experience">
+                <div id="wrapper-experience-title" class="section-title">Experience</div>
+                <div id="wrapper-experience-1" class="wrapper-experiences">
+                    <div id="wrapper-experience-1-img" class="wrapper-experiences-img">
+                        <img id="experience-img1" src="res/Job1.jpg" class="experience-img" />
+                    </div>
+                    <div id="wrapper-experience-1-intro" class="wrapper-experiences-intro">
+                        <h1>Software Development Co-op</h1>
+                        <h2>China Mobile Group Design Institute Co., Ltd. Beijing, China. May 2017 - August 2017</h2>
+                        <p>&#9900; Created a simple program using C to sort and analyze MR data</p>
+                        <p>&#9900; Contributed in developing a software to display MR data on Baidu Map</p>
+                        <p>&#9900; Enhanced Javascript, HTML, and CSS skills through working with the website management team</p>
+                    </div>
+                </div>
+            </div>
+            <div id="wrapper-project">
+                <div id="wrapper-project-title" class="section-title">Project</div>
+                <div id="wrapper-project-1" class="wrapper-projects">
+                    <div id="wrapper-project-1-img" class="wrapper-projects-img">
+                        <img id="project1-img1" src="res/MrSchedule1.png" class="project-img"/>
+                        <img id="project1-img2" src="res/MrSchedule2.png" class="project-img"/>
+                        <img id="project1-img3" src="res/MrSchedule3.png" class="project-img"/>
+                    </div>
+                    <div id="wrapper-project-1-intro" class="wrapper-projects-intro">
+                        <h1 class="project-intro-h">Mr.Schedule</h1>
+                        <p class="project-intro-p">&#9900; Mr.Schedule is a WeChat MiniApp(embedded in WeChat) with a simple and clear UI design</p>
+                        <p class="project-intro-p">&#9900; It allows students to type in their course schedule and view them as a daily timetable</p>
+                        <p class="project-intro-p">&#9900; It is built using Javscript, WXML(WeChat version of HTML), and WXSS(WeChat version of CSS)</p>
+                        <p class="project-intro-p">&#9900; It only requires a couple of courses and their information to be functional</p>
+                        <p class="project-intro-p">&#9900; Currently have over 850 total users, and around 10 daily active users</p>
+                        <p class="project-intro-p">&#9755; <a href="https://github.com/wtyanan/Mr.Schedule" target="_blank" style="color: white;">Check it out on GitHub</a></p>
+                    </div>
+                </div>
+                <div id="wrapper-project-2" class="wrapper-projects">
+                    <div id="wrapper-project-2-img" class="wrapper-projects-img">
+                        <img id="project2-img1" src="res/FMHelper1.png" class="project-img" />
+                        <img id="project2-img2" src="res/FMHelper2.png" class="project-img" />
+                    </div>
+                    <div id="wrapper-project-2-intro" class="wrapper-projects-intro">
+                        <h1 class="project-intro-h">FMHelper</h1>
+                        <p class="project-intro-p">&#9900; FMHelper stands for Financial Math Helper. It is a WeChat MiniApp(embedded in WeChat)</p>
+                        <p class="project-intro-p">&#9900; It provides several useful calculators for both academic and daily use</p>
+                        <p class="project-intro-p">&#9900; It includes Mortgage Calculator, Vehicle Lease and Buy Calculator and more</p>
+                        <p class="project-intro-p">&#9900; The MiniApp is easy to navigate and calculators are easy to use</p>
+                        <p class="project-intro-p">&#9900; Currently have over 150 total users</p>
+                        <p class="project-intro-p">&#9755; <a href="https://github.com/wtyanan/FMHelper" target="_blank" style="color: white;">Check it out on GitHub</a></p>
+                    </div>
+                </div>
+                <div id="back-to-top" style="width: 100%; height: 40px; text-align: center"><img id="back-to-top-img" src="res/up.png" /></div>
+            </div>
+            <div id="wrapper-contact">
+                <div id="wrapper-contact-icons">
+                    <div class="icons-div">
+                        <a href="mailto:terrywang@tianyu.ninja" style="background-image: url('res/Email.png'); background-size: cover;" target="_blank" class="icons-img"></a>
+                        <a href="https://github.com/wtyanan" style="background-image: url('res/GitHub.png'); background-size: cover;" target="_blank" class="icons-img"></a>
+                        <a href="https://www.linkedin.com/in/tianyu-w/" style="background-image: url('res/LinkedIn.png'); background-size: cover;" target="_blank" class="icons-img"></a>
+                    </div>
+                </div>
+                <div id="wrapper-contact-copyright">
+                    &copy; 2017 Tianyu Wang
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
